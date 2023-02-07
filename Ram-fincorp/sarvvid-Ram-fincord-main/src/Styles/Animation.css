@@ -1,0 +1,14 @@
+.lottie{
+    padding: 20px;
+    padding-top: 10px;
+    /* position: absolute;
+    right: 0; */
+    height: 700px;
+    width: 700px;
+}
+
+@media only screen and (max-width: 900px) {
+    .lottie{
+        display: none;
+    }
+}

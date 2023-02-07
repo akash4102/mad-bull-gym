@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.main{
+    width: 60%;
+    max-height: 1000px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    text-align: center;
+}
+.name{
+    text-transform: uppercase;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 100px 0 10px 0;
+    font-family: 'Open Sans', sans-serif Bold;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+}
+.tag-line{
+    text-transform: uppercase;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20vw;
+    font-family: 'Poppins', sans-serif;
+    color: #87CEFA;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 30px;
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
+    animation: effect 2s linear infinite;
+}
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+            #006480, #8800ff);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+            #3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
+.main-div{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 2% auto;
+}
+.input-area{
+    border-radius: 10px;
+    font-size: 25px;
+    text-align:center;
+    margin-bottom: 2%;
+    padding: 10px;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    position: relative;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 900px) {
+    .main{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+ }
